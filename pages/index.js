@@ -22,7 +22,6 @@ export default class Home extends Component {
               </li>
             ))}
           </ul>
-          <Link href="./dogs"/>
         </article>
       </>
     )
