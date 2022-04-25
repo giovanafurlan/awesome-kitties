@@ -1,11 +1,11 @@
 import Head from "next/head"
 import Link from "next/link";
 import { Component } from 'react'
-import { attributes, react as HomeContent } from '../content/home.md';
+import { attributes, react as HomeContent } from '../../content/posts/dogs.md';
 
 export default class Home extends Component {
   render() {
-    let { title, cats } = attributes;
+    let { title, dogs } = attributes;
     return (
       <>
         <Head>
@@ -15,14 +15,14 @@ export default class Home extends Component {
           <h1>{title}</h1>
           <HomeContent />
           <ul>
-            {cats.map((cat, k) => (
+            {dogs.map((dog, k) => (
               <li key={k}>
-                <h2>{cat.name}</h2>
-                <p>{cat.description}</p>
+                <h2>{dog.name}</h2>
+                <p>{dog.description}</p>
               </li>
             ))}
           </ul>
-          <Link href="./dogs"/>
+          <Link href="/"/>
         </article>
       </>
     )

@@ -9,7 +9,7 @@ collections:
     files:
       - label: "Home"
         name: "home"
-        file: "content/home.md"
+        file: "content/posts/home.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
@@ -25,14 +25,14 @@ collections:
     files:
       - label: "Home"
         name: "home"
-        file: "content/posts/home.md"
+        file: "content/posts/dogs.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - label: "Cats"
-            name: "cats"
+          - label: "Dogs"
+            name: "dogs"
             widget: list
             fields:
               - { label: "Name", name: "name", widget: "string" }
-              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Description", name: "description", widget: "text" }        
