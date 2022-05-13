@@ -1,8 +1,8 @@
 ---
-title: New cat
+title: Fido
 date: 2022-04-25T17:36:02.754Z
 cats: []
 ---
-Fluffy
+Fido
 
-A very loving kitty
+He is a cat but thinks he is a dog
