@@ -17,7 +17,7 @@ export default function Document() {
       <body>
         {/* Google Tag Manager (noscript) */}
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NWSGF8"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        height="0" width="0"></iframe></noscript>
         <Main />
         <NextScript />
       </body>
